@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 
 const Header = () => {
   const bag = useSelector(store => store.bag);
-  console.log(bag);
+
   return (
     <header>
       <div className="logo_container">
@@ -29,7 +29,7 @@ const Header = () => {
           Studio <sup>New</sup>
         </a>
       </nav>
-      <div className="search_bar">
+      <div className="search_bar search-bar-display">
         <span className="material-symbols-outlined search_icon">search</span>
         <input
           className="search_input"

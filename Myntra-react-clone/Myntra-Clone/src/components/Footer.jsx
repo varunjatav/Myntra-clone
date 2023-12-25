@@ -16,7 +16,7 @@ const Footer = () => {
         <a href="#">Myntra Insider</a>
       </div>
 
-      <div className="footer_column">
+      <div className="footer_column footer_display">
         <h3>ONLINE SHOPPING</h3>
 
         <a href="#">Men</a>
@@ -28,7 +28,7 @@ const Footer = () => {
         <a href="#">Myntra Insider</a>
       </div>
 
-      <div className="footer_column">
+      <div className="footer_column footer_display">
         <h3>ONLINE SHOPPING</h3>
 
         <a href="#">Men</a>
